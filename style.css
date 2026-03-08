@@ -1,0 +1,145 @@
+body
+{
+	background-image: url(background.png);
+	margin: 0;
+	padding: 0;
+	font-family: "Georgia";
+	color: #3B2A1A;
+	line-height: 1.6;
+}
+.main
+{
+	max-width: 1100px;
+	margin: 40px auto;
+	padding: 40px;
+	background-color: rgba(255, 248, 220, 0.92);
+	border: 2px solid #C9A227;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+h1
+{
+	font-family: Georia, serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:  #A67C00;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h2
+{
+	font-size: 28px;
+	color: #4B2E2E;
+	border-bottom: 2px solid #C9A227;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+p
+{
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.navbar /*navigation bar container*/
+{	
+	background-color: #2E1A1A;
+	padding: 15px 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.navbar li
+{
+	display: inline-block;
+	margin: 0 25px;
+}
+.navbar a
+{	
+	text-decoration: none;
+	color: #C9A227;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.navbar a:hover
+{
+	color: #FFD700;
+	border-bottom: 2px solid #FFD700;
+}
+a:link
+{
+	color: #A67C00;
+}
+a:visited
+{
+	color: #A67C00;
+}
+a:hover
+{
+	color: #FFD700;
+	transition: 0.3s;
+}
+a:active
+{
+	color: #8B0000;
+}
+img
+{
+	border: 3px solid #C9A227;
+	border-radius: 6px;
+	margin: 20px 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	transition: 0.3s;
+}
+img:hover
+{
+	transform: scale(1.03);
+}
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+}
+table, th, td
+{
+	border: 1px solid #4B2E2E;
+	padding: 10px;
+	text-align: center;
+}
+th
+{
+	background-color: #C9A227;
+	color: #2E1A1A;
+}
+footer
+{
+	background-color: #2E1A1A;
+	color: #C9A227;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	font-size: 14px;
+}
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b2e1e;
+}
+
+.back-to-top:hover {
+    color: #d4af37;
+}
